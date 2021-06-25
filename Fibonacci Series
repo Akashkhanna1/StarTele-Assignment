@@ -1,0 +1,20 @@
+var n =prompt('Enter the no term of terms for the fibonacci series:');
+var a=0;
+var b=1;
+if(n==0){
+    console.log(a);
+}
+if(n==1){
+    console.log(a);
+    console.log(b);
+}
+if(n>=2){
+    console.log(a)
+    for(i = 2; i <= n; i++)
+    {
+    c = a+b;
+    a = b;
+    b = c;
+    console.log(b);
+    }
+}
